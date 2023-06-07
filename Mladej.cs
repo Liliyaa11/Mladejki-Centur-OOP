@@ -8,6 +8,7 @@ namespace Mladejki_Centur_OOP
 {
     public abstract class Mladej
     {
+       
         public string Ime { get; set; }
         public string Adres { get; set; }
         public int GodinaNaRajdane { get; set; }
@@ -17,7 +18,7 @@ namespace Mladejki_Centur_OOP
             this.Adres=adres;
             this.GodinaNaRajdane= godnarajdane;
         }
-        public abstract void Print();
+        
         public abstract int Validation();
     }
 }

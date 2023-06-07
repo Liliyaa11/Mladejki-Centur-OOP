@@ -17,7 +17,7 @@ namespace Mladejki_Centur_OOP
             this.Specialnost = Specialnost;
         }
 
-        public override void Print()
+        public void Print()
         {
             Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}," +
                 $" Година на раждане:{this.GodinaNaRajdane}, Факултет:{this.Fakultet}, Специалност:{this.Specialnost});

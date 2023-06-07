@@ -19,7 +19,7 @@ namespace Mladejki_Centur_OOP
             this.Dlujnost = dlujnost;
         }
 
-        public override void Print()
+        public void Print()
         {
             Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}," +
                 $"Предприятие:{this.Predpriqtie}, Специалност:{this.Specialnost}, Длъжност:{this.Dlujnost}");
