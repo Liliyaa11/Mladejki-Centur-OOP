@@ -17,7 +17,7 @@ namespace Mladejki_Centur_OOP
             this.Adres=adres;
             this.GodinaNaRajdane= godnarajdane;
         }
-        public abstract void DisplayInfo();
-        public abstract int CalculateAge();
+        public abstract void Print();
+        public abstract int Validation();
     }
 }

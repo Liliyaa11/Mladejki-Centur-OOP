@@ -8,9 +8,17 @@ namespace Mladejki_Centur_OOP
 {
     internal class Rabota:Mladej
     {
+
         public string Predpriqtie { get; set; }
         public string Specialnost { get; set; }
         public string Dlujnost { get; set; }
+        public Rabota(string predpriqtie, string specialnost, string dlujnost, string ime, string adres, int godnarajdane) : base(ime, adres, godnarajdane)
+        {
+            this.Predpriqtie = predpriqtie;
+            this.Specialnost = specialnost;
+            this.Dlujnost = dlujnost;
+        }
+
         public override void Print()
         {
             Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}," +

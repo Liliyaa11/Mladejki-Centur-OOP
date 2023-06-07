@@ -8,13 +8,19 @@ namespace Mladejki_Centur_OOP
 {
     internal class Uchenik:Mladej
     {
+        
+
         public string Uchilishte { get; set; }
-        public override void DisplayInfo()
+        public Uchenik(string uchilishte,string ime, string adres, int godnarajdane) : base(ime, adres, godnarajdane)
+        {
+            this.Uchilishte = uchilishte;
+        }
+        public override void Print()
         {
             Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}," +
                 $" Училище:{this.Uchilishte}");
         }
-        public override int CalculateAge()
+        public override int Validation()
         {
             
         }
