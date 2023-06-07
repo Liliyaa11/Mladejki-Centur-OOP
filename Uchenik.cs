@@ -11,7 +11,8 @@ namespace Mladejki_Centur_OOP
         public string Uchilishte { get; set; }
         public override void DisplayInfo()
         {
-            Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}, Училище:{this.Uchilishte}");
+            Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}," +
+                $" Училище:{this.Uchilishte}");
         }
         public override int CalculateAge()
         {
