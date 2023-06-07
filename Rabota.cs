@@ -8,10 +8,25 @@ namespace Mladejki_Centur_OOP
 {
     internal class Rabota:Mladej
     {
+        private string predpriqtie;
+        public string Predpriqtie
+        {
+            get { return predpriqtie; } 
+            set { predpriqtie = value; }
+        }
+        private string specialnost;
+        public string Specialnost
+        {
+            get { return specialnost; }
+            set { specialnost = value; }
+        }
+        private string dlujnost;
+        public string Dlujnost
+        {
+            get { return dlujnost; }
+            set { dlujnost = value; }
+        }
 
-        public string Predpriqtie { get; set; }
-        public string Specialnost { get; set; }
-        public string Dlujnost { get; set; }
         public Rabota(string predpriqtie, string specialnost, string dlujnost, string ime, string adres, int godnarajdane) : base(ime, adres, godnarajdane)
         {
             this.Predpriqtie = predpriqtie;

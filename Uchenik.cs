@@ -8,9 +8,12 @@ namespace Mladejki_Centur_OOP
 {
     internal class Uchenik:Mladej
     {
-        
-        
-        public string Uchilishte { get; set; }
+        private string uchilishte;   
+        public string Uchilishte
+        {
+            get { return uchilishte; }
+            set { uchilishte = value;}
+        }
         public Uchenik(string uchilishte,string ime, string adres, int godnarajdane) : base(ime, adres, godnarajdane)
         {
             this.Uchilishte = uchilishte;

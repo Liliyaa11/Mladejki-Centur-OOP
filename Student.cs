@@ -8,9 +8,18 @@ namespace Mladejki_Centur_OOP
 {
     internal class Student:Mladej
     {
-
-        public string Fakultet { get; set; }
-        public string Specialnost { get; set; }
+        private string fakultet;
+        public string Fakultet
+        {
+            get { return fakultet; }
+            set { fakultet = value; }
+        }
+        private string specialnost;
+        public string Specialnost
+        {
+            get { return specialnost; }
+            set { specialnost = value; }
+        }
         public Student(string fakultet, string Specialnost, string ime, string adres, int godnarajdane) : base(ime, adres, godnarajdane)
         {
             this.Fakultet = fakultet;

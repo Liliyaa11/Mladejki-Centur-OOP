@@ -8,17 +8,31 @@ namespace Mladejki_Centur_OOP
 {
     public abstract class Mladej
     {
-       
-        public string Ime { get; set; }
-        public string Adres { get; set; }
-        public int GodinaNaRajdane { get; set; }
+        private string ime;
+        public string Ime
+        {
+            get { return ime; }
+            set { ime = value; }
+        }
+        private string adres;
+        public string Adres
+        {
+            get { return adres; }
+            set {  adres = value; }
+        }
+        private int godinaNaRajdane;
+        public int GodinaNaRajdane
+        {
+            get { return godinaNaRajdane; }
+            set { godinaNaRajdane = value; }
+        }
         public Mladej(string ime, string adres, int godnarajdane)
         {
             this.Ime= ime;
             this.Adres=adres;
             this.GodinaNaRajdane= godnarajdane;
         }
-        
+       // public abstract void Print();
         public abstract int Validation();
     }
 }
