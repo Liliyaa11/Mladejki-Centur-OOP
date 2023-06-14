@@ -1,0 +1,15 @@
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\bin\Debug\net6.0\Mladejki-Centur-OOP.exe
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\bin\Debug\net6.0\Mladejki-Centur-OOP.deps.json
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\bin\Debug\net6.0\Mladejki-Centur-OOP.runtimeconfig.json
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\bin\Debug\net6.0\Mladejki-Centur-OOP.dll
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\bin\Debug\net6.0\Mladejki-Centur-OOP.pdb
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.csproj.AssemblyReference.cache
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.AssemblyInfoInputs.cache
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.AssemblyInfo.cs
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.csproj.CoreCompileInputs.cache
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.dll
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\refint\Mladejki-Centur-OOP.dll
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.pdb
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\Mladejki-Centur-OOP.genruntimeconfig.cache
+C:\Users\STUDENTS-STEM-13\Desktop\11aRS\11aL\Mladejki-Centur-OOP\Mladejki-Centur-OOP\obj\Debug\net6.0\ref\Mladejki-Centur-OOP.dll

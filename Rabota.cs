@@ -34,14 +34,18 @@ namespace Mladejki_Centur_OOP
             this.Dlujnost = dlujnost;
         }
 
-        public void Print()
+        public override void Print()
         {
             Console.WriteLine($"Име:{this.Ime}, Адрес:{this.Adres}, Година на раждане:{this.GodinaNaRajdane}," +
                 $"Предприятие:{this.Predpriqtie}, Специалност:{this.Specialnost}, Длъжност:{this.Dlujnost}");
         }
-        public override int Validation()
+        public override double SumAge()
         {
-
+            int age = 2023 - GodinaNaRajdane;
+            double sum = 0;
+            sum += age;
+            return sum;
         }
+
     }
 }

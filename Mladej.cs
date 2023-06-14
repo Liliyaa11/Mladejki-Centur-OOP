@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mladejki_Centur_OOP
 {
-    public abstract class Mladej
+    public abstract class Mladej:IPrint
     {
         private string ime;
         public string Ime
@@ -32,7 +32,8 @@ namespace Mladejki_Centur_OOP
             this.Adres=adres;
             this.GodinaNaRajdane= godnarajdane;
         }
-       // public abstract void Print();
-        public abstract int Validation();
+        
+        public abstract double SumAge();
+        public virtual void Print() { }
     }
 }
